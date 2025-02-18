@@ -303,7 +303,52 @@ th, td{
     margin-bottom: 15px;
 }
 
+/*Canicross*/
 
+.canicross{
+    padding: 50px 0;
+    text-align: center;
+}
+
+.canicross h2{
+    color: black;
+    font-family: 'Oswald' sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.cani-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.cani{
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.cani img{
+    width: 250px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+
+.cani h3{
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald' sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.cani p, .precio{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 15px;
+}
 .footer{
     text-align: center;
     padding: 50px 0;
