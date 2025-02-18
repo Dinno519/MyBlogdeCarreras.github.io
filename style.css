@@ -29,12 +29,15 @@ img{
 
 
 .header{
+    background-image: linear-gradient(to top,  rgba(209, 171, 140, 0.501) 0%, rgba(251, 194, 235, 0.485) 100%);
     display: flex;
     align-items: center;
     min-height: 80vh;
     background-color: #f5f5f5;
     padding: 70px 0;
 }
+
+
 
 .header .navbar ul li a{
     display: inline-block;
@@ -69,6 +72,7 @@ img{
 .menu{
     position: fixed;
     background-color: #f5f5f5;
+    background-image: linear-gradient(to top,  rgba(209, 171, 140, 0.501) 0%, rgba(251, 194, 235, 0.485) 100%);
     top: 0;
     left: 0;
     right: 0;
@@ -160,7 +164,7 @@ th, td{
 }
 
 .carreras{
-    padding: 20px 0 0;
+    padding: 30px 0 0 ;
     display: flex;
     justify-content: space-between;
 }
@@ -169,22 +173,23 @@ th, td{
     display: flex;
     align-items: center;
     flex-basis:  calc(100% - 15px);
-    background-color: #f5f5f5;
+
     padding: 35px;
 }
 
 .carrera-img{
-    flex-basis: 50%;
+    flex-basis: 100%;
     margin-right: 15px;
 }
 
 .carrera-img img{
-    width: 250px;
+    width: auto;
 }
 
 .carrera-txt{
     flex-basis:  100%;
-    text-align: ;
+    text-align: left;
+    margin-bottom: auto;
 }
 
 .carrera-txt h3{
@@ -207,6 +212,7 @@ th, td{
 /*Mis carreras*/
 
 .mis_carreras{
+    
     padding: 50px 0;
     text-align: center;
 }
