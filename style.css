@@ -378,7 +378,7 @@ th, td{
     margin-bottom: 10px;
 }
 
-@media (max-width:991px) {
+@media (max-width:900px) {
     .menu{
         padding: 20px;
     }
@@ -411,10 +411,6 @@ th, td{
 
     .logo{
         display: none;
-    }
-
-    .submenu:hover #carrito{
-        min-width: 100%;
     }
 
     .header{
