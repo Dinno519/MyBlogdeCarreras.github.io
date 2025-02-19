@@ -14,6 +14,13 @@ font-family: 'Poppins', scans-serif
     list-style: none;
 }
 
+h2{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+    text-transform: uppercase;
+}
+
 body{
     font-family: 'Poppins', scans-serif; 
 }
@@ -164,39 +171,50 @@ th, td{
 }
 
 .carreras{
-    padding: 30px 0 0 ;
-    display: flex;
-    justify-content: space-between;
+    
+    padding: 50px 0;
+    text-align: center;
 }
 
-.carrera-1{
-    display: flex;
-    align-items: center;
-    flex-basis:  calc(100% - 15px);
-
-    padding: 35px;
-}
-
-.carrera-img{
-    flex-basis: 100%;
-    margin-right: 15px;
-}
-
-.carrera-img img{
-    width: auto;
-}
-
-.carrera-txt{
-    flex-basis:  100%;
-    text-align: left;
-    margin-bottom: auto;
-}
-
-.carrera-txt h3{
+.carreras h2{
     color: black;
     font-family: 'Oswald' sans-serif;
-    font-size: 25px;
+    font-size: 50px;
     text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.carrera-content{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+}
+
+.carrera{
+    display: grid;
+    
+    text-align: center;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.carrera img{
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.carrera h3{
+    font-size: 20px;
+    color: black;
+    font-family: 'Oswald' sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.carrera p{
+    font-size: 16px;
+    color: black;
     margin-bottom: 15px;
 }
 
